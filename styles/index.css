@@ -1,0 +1,154 @@
+/* body {
+    background-image: url('../assets/background-color.jpg');
+} */
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.welcome-header {
+    background-image: url('../assets/background-color.png');
+    display: flex;
+    justify-content: center;
+    padding: 50% 0;
+}
+
+.logo {
+    overflow: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+#projects-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.project-preview {
+    color: black;
+    background: #ffffff;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-bottom: calc(80% * 1.7);
+}
+
+.preview-image-container {
+    position: relative;
+    width: 100%; /* The size you want */
+}
+
+.preview-image-container:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+  
+.preview-image-container img {
+    position: absolute; /* Take your picture out of the flow */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Make the picture taking the size of it's parent */
+    width: 100%; /* This if for the object-fit */
+    height: 100%; /* This if for the object-fit */
+    object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+    object-position: center;
+}
+
+.project-preview:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+.preview-title {
+    font-size: 1.2rem;
+    margin: 1.2rem;
+}
+
+.preview-short-description {}
+
+@media (min-width: 576px) {
+    .welcome-header {
+        padding: 30% 0;
+    }
+    .mobile-filler {
+        height: 10vh;
+    }
+    #projects-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .project-preview {
+        width: calc(50% - 60px);
+        padding-bottom: calc((50% - 60px) * 1.7);
+    }
+}
+
+@media (min-width: 768px) {
+    .welcome-header {
+        padding: 25% 0;
+    }
+    .mobile-filler {
+        height: 5vh;
+    }
+    .project-preview {
+        width: calc(33.3% - 60px);
+        padding-bottom: calc((33.3% - 60px) * 1.7);
+    }
+}
+
+@media (min-width: 992px) {
+    .welcome-header {
+        padding: 20% 0;
+    }
+    .mobile-filler {
+        display: none;
+    }
+    .project-preview {
+        width: calc(25% - 60px);
+        padding-bottom: calc((25% - 60px) * 1.7);
+    }
+}
+
+@media(min-width: 1251px) {
+    .welcome-header {
+        padding: 15% 0;
+    }
+    .project-preview {
+        width: calc(20% - 60px);
+        padding-bottom: calc((20% - 60px) * 1.7);
+    }
+}
+
+@media(min-width: 1501px) {
+    .project-preview {
+        width: calc(16.66% - 60px);
+        padding-bottom: calc((16.66% - 60px) * 1.7);
+    }
+}
+
+ 
