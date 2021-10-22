@@ -69,7 +69,7 @@ fetch("https://api.npoint.io/e0e65b68b7b40a71357f").then(response => {
         console.log(name)
     const project = projects[name];
     const projectPreview = document.createElement('a');
-    projectPreview.href = `/project.html?name=${name}`
+    projectPreview.href = `/planb-design/project.html?name=${name}`
     projectPreview.className = 'project-preview-link';
 
     const previewImageContainer = document.createElement('div');
