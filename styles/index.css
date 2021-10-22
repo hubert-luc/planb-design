@@ -1,21 +1,65 @@
-/* body {
-    background-image: url('../assets/background-color.jpg');
-} */
+body {
+background: rgba(3, 60, 63)
+}
 
 .container {
-    max-width: 1600px;
-    margin: auto;
+    background-image: rgba(3, 60, 63)
 }
 
 .welcome-header {
-    background-image: url('../assets/background-color.png');
-    display: flex;
-    justify-content: center;
-    padding: 50% 0;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background:rgba(3, 60, 63)
 }
 
 .logo {
+    opacity: 0;
+    animation: show 2s ease-in;
+    animation-fill-mode: forwards;
     overflow: hidden;
+    width: 95%;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+@keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+.menu {
+    position: absolute;
+    display: flex;
+    margin: 245px;
+    color: rgba(252, 199, 197);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    width: 95%;
+    max-width: 380px;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    bottom: 5vh;
+    margin: auto
+}
+
+.menu-item {
+    white-space: nowrap;
+    padding: 15px 10px;
+}
+
+#projects-link {
+    cursor: pointer;
 }
 
 .hidden {
@@ -24,16 +68,21 @@
     height: auto;
 }
 
+#projects {
+    margin: auto;
+    max-width: 1600px;
+}
+
 #projects-list {
     display: flex;
     flex-direction: column;
     padding: 0;
+    margin: 0;
 }
 
 .project-preview {
-    background: #ffffff;
     display: inline-block;
-    margin: 15px;
+    margin: 40px 15px;
     padding: 15px 15px 30px;
     text-align: center;
     text-decoration: none;
@@ -47,11 +96,10 @@
     position: relative;
     width: 80%;
     height: 0;
-    padding-bottom: calc(80% * 1.7)
+    padding-bottom: 80%;
 }
 
 .project-preview-link {
-    color: black;
     text-decoration: none;
     display: block;
     height: 100%;
@@ -73,6 +121,7 @@
 }
   
 .preview-image-container img {
+    opacity: 1;
     position: absolute; /* Take your picture out of the flow */
     top: 0;
     bottom: 0;
@@ -85,25 +134,35 @@
 }
 
 .project-preview:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
     z-index: 10;
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
 
-.preview-title {
-    font-size: 1.2rem;
-    margin: 1.2rem;
+.title {
+    font-weight: 900;
+    font-size: 1.5rem;
+    background: rgba(3, 60, 63, 0.3);
+    position: absolute;
+    color: white;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto
 }
 
 .preview-short-description {}
 
 @media (min-width: 576px) {
-    .welcome-header {
-        padding: 30% 0;
+    .menu-item {
+        padding: 15px;
+        font-size: 1.25rem;
     }
     .mobile-filler {
         height: 10vh;
@@ -114,50 +173,17 @@
     }
     .project-preview {
         width: calc(50% - 60px);
-        padding-bottom: calc((50% - 60px) * 1.7);
-    }
-}
-
-@media (min-width: 768px) {
-    .welcome-header {
-        padding: 25% 0;
-    }
-    .mobile-filler {
-        height: 5vh;
-    }
-    .project-preview {
-        width: calc(33.3% - 60px);
-        padding-bottom: calc((33.3% - 60px) * 1.7);
+        padding-bottom: calc(50% - 60px);
     }
 }
 
 @media (min-width: 992px) {
-    .welcome-header {
-        padding: 20% 0;
-    }
-    .mobile-filler {
-        display: none;
+    .menu-item {
+        font-size: 1.5rem;
     }
     .project-preview {
-        width: calc(25% - 60px);
-        padding-bottom: calc((25% - 60px) * 1.7);
-    }
-}
-
-@media(min-width: 1251px) {
-    .welcome-header {
-        padding: 15% 0;
-    }
-    .project-preview {
-        width: calc(20% - 60px);
-        padding-bottom: calc((20% - 60px) * 1.7);
-    }
-}
-
-@media(min-width: 1501px) {
-    .project-preview {
-        width: calc(16.66% - 60px);
-        padding-bottom: calc((16.66% - 60px) * 1.7);
+        width: calc(33.3% - 60px);
+        padding-bottom: calc(33.3% - 60px);
     }
 }
 
