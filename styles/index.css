@@ -2,13 +2,14 @@ body {
 background: white;
 }
 
-.container {
+.projects-container {
     position: relative;
+    padding: 50px 0;
 }
 
 .color-change-separator {
     background-image: linear-gradient(rgba(3, 60, 63), white);
-    height: 50vh;
+    height: 40vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -59,7 +60,15 @@ background: white;
     left: 0;
     right: 0;
     bottom: 5vh;
-    margin: auto
+    margin: auto;
+}
+
+.menu a {
+    color: rgba(252, 199, 197);
+}
+
+.placeholder {
+    visibility: hidden;
 }
 
 .menu-item {
@@ -87,6 +96,8 @@ background: white;
     flex-direction: column;
     padding: 0;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-preview {
@@ -94,7 +105,6 @@ background: white;
     overflow: hidden;
     display: inline-block;
     margin: 0px 15px 40px;
-    padding: 15px 15px 30px;
     text-align: center;
     text-decoration: none;
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -105,7 +115,7 @@ background: white;
     transition: all .20s linear;
     z-index: 0;
     position: relative;
-    width: 80%;
+    width: 90%;
     height: 0;
     padding-bottom: 80%;
 }
@@ -121,7 +131,6 @@ background: white;
 }
 
 .preview-image-container {
-    position: relative;
     width: 100%; /* The size you want */
 }
 
@@ -155,24 +164,23 @@ background: white;
 }
 
 .title {
+    padding: 3px;
     font-weight: 900;
-    font-size: 1.5rem;
-    background: rgba(3, 60, 63, 0.6);
+    font-size: 1.2rem;
+    background: rgba(3, 60, 63, 0.85);
     position: absolute;
     color: white;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    bottom: 10%;
-    left: 0;
+    width: 65%;
+    bottom: 0px;
     right: 0;
-    margin: auto
+    margin: auto;
+    border-radius: 16px 0;
 }
 
 .preview-short-description {}
 
 @media (min-width: 576px) {
     .menu-item {
-        padding: 15px;
         font-size: 1.25rem;
     }
     .mobile-filler {
@@ -183,8 +191,8 @@ background: white;
         flex-direction: row;
     }
     .project-preview {
-        width: calc(50% - 60px);
-        padding-bottom: calc(50% - 60px);
+        width: calc(50% - 30px);
+        padding-bottom: calc(50% - 30px);
     }
 }
 
@@ -193,16 +201,16 @@ background: white;
         font-size: 1.5rem;
     }
     .project-preview {
-        width: calc(33.3% - 60px);
-        padding-bottom: calc(33.3% - 60px);
+        width: calc(33.3% - 30px);
+        padding-bottom: calc(33.3% - 30px);
     }
 }
 
 @media (min-width: 1401px) {
     .title {
         font-size: 1.8rem;
-        bottom: 7%;
     }
 }
+
 
  

@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
+        <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,19 +30,119 @@
     <div class='welcome-header'>
         <img class="logo" src="./assets/main-logo.png"/>
         <div class="menu">
-            <a id='projects-link' class="menu-item"></a>
-            <a id='workshop-link' class="menu-item"></a>
-            <a id="contact-link" class="menu-item"></a>
+            <a href='/index.html#projekty' id='projects-link' class="menu-item"></a>
+            <a href='/pracownia.html' id='workshop-link' class="menu-item"></a>
+            <a href='/kontakt.html' id="contact-link" class="menu-item"></a>
         </div>
     </div>
 
   
-    <div class="container"> 
+    <section class="projects-container" id="projekty"> 
         <div class="color-change-separator"></div>  
         <div id='projects'>
             <ul id='projects-list'></ul>
         </div>
+      </section>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/pracowniaplanbdesign" class="me-4 text-reset" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-facebook-f fa-3x"></i>
+        </a>
+        <a href="https://www.instagram.com/planbdesign__/" class="me-4 text-reset" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram fa-3x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/karolina-brusi%C5%82o-4b0424150" class="me-4 text-reset" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Plan B Design
+            </h6>
+                      <p><q>Design to zabawne słowo. Pewni ludzie myślą. że oznacza ono wygląd. Jeżeli jednak spojrzysz głębiej to naprawdę chodzi o to, jak to działa</q></p> Steve Jobs
+
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Linki
+            </h6>
+            <p>
+              <a href="/pracownia.html#Oferta" class="text-reset">Oferta</a>
+            </p>
+            <p>
+              <a href="/index.html#projekty" class="text-reset">Projekty</a>
+            </p>
+            <p>
+              <a href="/pracownia.html" class="text-reset">Pracownia</a>
+            </p>
+            <p>
+              <a href="/kontakt.html" class="text-reset">Kontakt</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Kontakt
+            </h6>
+            
+            <a href="mailto:kontakt@planbpracownia.pl@email.com" style="color: rgb(117, 117, 117);">
+              <i class="fas fa-envelope me-3"></i>
+             kontakt@planbpracownia.pl
+            </p>
+            <a href="tel:+48791141669" style="color: rgb(117, 117, 117);"><i class="fas fa-phone me-3"></i> + 48 791 141 669</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(3, 60, 63); color: white;">
+      © 2021 Copyright: Plan B Design
     </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+></script>
 <script src="./js/index.js"></script>
 </body>
 </html>
