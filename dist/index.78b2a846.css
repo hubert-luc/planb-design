@@ -1,0 +1,217 @@
+body {
+background: white;
+}
+
+.projects-container {
+    position: relative;
+    padding: 50px 0;
+}
+
+.color-change-separator {
+    background-image: linear-gradient(rgba(3, 60, 63), white);
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.welcome-header {
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background:rgba(3, 60, 63)
+}
+
+.logo {
+    opacity: 0;
+    animation: show 2s ease-in;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    width: 95%;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+@keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1
+    }
+  }
+
+.menu {
+    position: absolute;
+    display: flex;
+    margin: 245px;
+    color: rgba(252, 199, 197);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    width: 95%;
+    max-width: 380px;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    bottom: 5vh;
+    margin: auto;
+}
+
+.menu a {
+    color: rgba(252, 199, 197);
+}
+
+.placeholder {
+    visibility: hidden;
+}
+
+.menu-item {
+    white-space: nowrap;
+    padding: 15px 10px;
+}
+
+#projects-link {
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+#projects {
+    margin: auto;
+    max-width: 1600px;
+}
+
+#projects-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-preview {
+    border-radius: 16px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+    width: 90%;
+    height: 0;
+    padding-bottom: 80%;
+}
+
+.project-preview-link {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.preview-image-container {
+    width: 100%; /* The size you want */
+}
+
+.preview-image-container:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+  
+.preview-image-container img {
+    opacity: 1;
+    position: absolute; /* Take your picture out of the flow */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Make the picture taking the size of it's parent */
+    width: 100%; /* This if for the object-fit */
+    height: 100%; /* This if for the object-fit */
+    object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+    object-position: center;
+}
+
+.project-preview:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+.title {
+    padding: 3px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    background: rgba(3, 60, 63, 0.85);
+    position: absolute;
+    color: white;
+    width: 65%;
+    bottom: 0px;
+    right: 0;
+    margin: auto;
+    border-radius: 16px 0;
+}
+
+.preview-short-description {}
+
+@media (min-width: 576px) {
+    .menu-item {
+        font-size: 1.25rem;
+    }
+    .mobile-filler {
+        height: 10vh;
+    }
+    #projects-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .project-preview {
+        width: calc(50% - 30px);
+        padding-bottom: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 992px) {
+    .menu-item {
+        font-size: 1.5rem;
+    }
+    .project-preview {
+        width: calc(33.3% - 30px);
+        padding-bottom: calc(33.3% - 30px);
+    }
+}
+
+@media (min-width: 1401px) {
+    .title {
+        font-size: 1.8rem;
+    }
+}
+
+
+ 
+/*# sourceMappingURL=index.78b2a846.css.map */
