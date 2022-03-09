@@ -22,45 +22,6 @@ const projects = {
             "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-miodowa%2Fsypialnia_4_3_11zon.jpg?alt=media&token=965b0aa0-b039-4f7b-b553-cc3cdb36859e"],
         description: "Projekt szergówki, której łączny matraż wynosi 93 m2. Zakres projektu parteru obejmuje wiatrołap, salon połączony z kuchnią i jadalnią oraz łazienka. Na piętrze zaprojektowana została sypialnia z garderobą, łazienka i gabinet. W całej koncepcji dominują stonowane kolory, biel i szarość z akcentami kolorystycznymi w postaci granatu i zieleni. "
     },
-    "plan-dabie": {
-        name: "Plan Dąbie",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-dabie%2Fsal_1_1_11zon.jpg?alt=media&token=8a57fe0c-6017-4eae-9329-2717bfbfe060",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-dabie%2Fsal_3_2_11zon.jpg?alt=media&token=edf3b1fd-83fb-4693-915e-95a0f6bbdf0c",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-dabie%2Fsal_4_3_11zon.jpg?alt=media&token=3ca3e836-75e0-445f-9462-c14dcaf6a2ce",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-dabie%2Fsal_5_4_11zon.jpg?alt=media&token=a0102e39-9432-476c-b5cf-f2d07ea9a46a"],
-        description: "Projekt 17 metrowego salonu w Szczecinie, to metamorfoza istniejącego już wnętrza. Inwestorzy postawili na nowoczesny styl. Akcentem stała się granatowa ściana w połączeniu z czarnymi płytkami kamiennymi imitującymi kamień oraz drewnem. Nowym rozwiązaniem jest również podwieszony sufit z wpuszczonym oświetleniem oraz listwami led, które klimatycznie doświetlają wnętrze."
-    },
-    "plan-hallera": {
-        name: "Plan Hallera",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F1_KUCHNIA-min.jpg?alt=media&token=1d5900e6-5f71-45be-ad71-dda91173bd9a",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F2_Kuchnia-min.jpg?alt=media&token=be933b78-a0bd-4a27-be6a-01443b4367fc",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F3_kuchnia-min.jpg?alt=media&token=db41bbbf-0d75-47b2-9f32-75fff3eb8132",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F4_kuchnia-min.jpg?alt=media&token=5bbbda32-a605-4b64-9ce8-84aca1aa8184",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F5_kuchnia-min.jpg?alt=media&token=e49a1dcf-2936-4983-a28e-d6e0a88c788e"],
-        description: "Projekt kuchni we Wrocławiu to metamorofza istniejącego pomieszczenia o powierzchni 5,5 m2. Zaprojektowanie wnętrza wpisującego się w istniejące już elementy to spore wyzwanie dla architekta oraz wykonawcy. W projekcie inwestorzy chcieli odświeżyć wnętrze pozostawiając bez zmian lokalizację przyłączy oraz kafle na fartuchu kuchennym"
-    },
-    "plan-lubomirskiego": {
-        name: "Plan Lubomirskiego",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F11_salon_fina%C5%82-min.jpg?alt=media&token=1ec0ffde-092e-4146-b3b8-6f7c5896b44b",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F12_salon_fina%C5%82-min.jpg?alt=media&token=fb1d19cb-d068-489d-bda1-97caa53da908",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F13a_salon_fina%C5%82-min.jpg?alt=media&token=5b96c85f-9216-46da-8329-3c56c1d443f3",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F9_salon_fina%C5%82-min.jpg?alt=media&token=ce6af92e-2c18-41bb-8039-90b7d33a3483"
-            ],
-        description: ""
-    },
-    "plan-mierzyn": {
-        name: "Plan Mierzyn",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchnia_4-min.jpg?alt=media&token=a052697b-3839-4201-856c-68d4b858fb46",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchniaq_1-min.jpg?alt=media&token=d394b6d7-88cd-460e-b464-e7307172c52f",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchniaq_2-min.jpg?alt=media&token=8df7d130-1a6a-4741-8b24-656dccb4a2bf",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchniaq_3-min.jpg?alt=media&token=486eb9fb-e518-47cb-851f-6354185f4980"
-            ],
-        description: "Projekt kuchni o powierzchni 12 m2 w nowo projektowanym domie jednorodzinnym. Kierując się zasadą trzech kolorów we wnętrzach w tym projekcie postawiłam na klasyczną biel i czerń oraz drewno, które ociepliło wnętrze. "
-    },
     "plan-modern": {
         name: "Plan Modern",
         images: [
@@ -72,24 +33,14 @@ const projects = {
             ],
         description: ""
     },
-    "plan-modern-classic": {
-        name: "Plan Modern Classic",
+    "plan-dabie": {
+        name: "Plan Dąbie",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-modern-classic%2F1_drewno-min.png?alt=media&token=52d88521-0ac5-493e-838c-cf68070c9e1e",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-modern-classic%2F1_roz-min.png?alt=media&token=cfaeb411-68b5-465d-b0fc-519ac68956ed",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-modern-classic%2F2_biel-min.png?alt=media&token=7de81329-2f31-4907-ad00-a38f0a87dd6b"
-            ],
-        description: ""
-    },
-    "plan-oltaszyn": {
-        name: "Plan Ołtaszyn",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_1_1_11zon.jpg?alt=media&token=66cdc8ba-de80-49c7-9fda-f453980fa8a0",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_2_2_11zon.jpg?alt=media&token=7b9b40b3-9e1b-4063-9a8f-bf583edb76be",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_3_3_11zon.jpg?alt=media&token=e00cddab-9413-40d2-9ace-75660460967f",
-            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_4_4_11zon.jpg?alt=media&token=a64f5d3f-5166-4c0d-bf4e-2d92f425be1e"
-            ],
-        description: ""
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-dabie%2Fsal_1_1_11zon.jpg?alt=media&token=8a57fe0c-6017-4eae-9329-2717bfbfe060",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-dabie%2Fsal_3_2_11zon.jpg?alt=media&token=edf3b1fd-83fb-4693-915e-95a0f6bbdf0c",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-dabie%2Fsal_4_3_11zon.jpg?alt=media&token=3ca3e836-75e0-445f-9462-c14dcaf6a2ce",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projectls%2Fplan-dabie%2Fsal_5_4_11zon.jpg?alt=media&token=a0102e39-9432-476c-b5cf-f2d07ea9a46a"],
+        description: "Projekt 17 metrowego salonu w Szczecinie, to metamorfoza istniejącego już wnętrza. Inwestorzy postawili na nowoczesny styl. Akcentem stała się granatowa ściana w połączeniu z czarnymi płytkami kamiennymi imitującymi kamień oraz drewnem. Nowym rozwiązaniem jest również podwieszony sufit z wpuszczonym oświetleniem oraz listwami led, które klimatycznie doświetlają wnętrze."
     },
     "plan-slowackiego": {
         name: "Plan Słowackiego",
@@ -112,6 +63,55 @@ const projects = {
             "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-zdroje%2FKUCH_7_6_11zon.jpg?alt=media&token=5eb649c8-92d1-435a-a97d-4b1bfb5dce8a"
             ],
         description: "Projekt kuchni w Szczecinie jest metamorfozą istniejącego wnętrza. Zabudowa meblowa została dostosowana pod istniejące już przyłącza wodno- kanalizacyjne oraz elektrykę. Inwestorzy chcieli stworzyć ponad czasowe pomieszczenie, dlatego w projekcie postawiliśmy na biel i granat jako akcent oraz złote dodatki. "
+    },
+    "plan-lubomirskiego": {
+        name: "Plan Lubomirskiego",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F11_salon_fina%C5%82-min.jpg?alt=media&token=1ec0ffde-092e-4146-b3b8-6f7c5896b44b",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F12_salon_fina%C5%82-min.jpg?alt=media&token=fb1d19cb-d068-489d-bda1-97caa53da908",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F13a_salon_fina%C5%82-min.jpg?alt=media&token=5b96c85f-9216-46da-8329-3c56c1d443f3",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-lubomirskiego%2F9_salon_fina%C5%82-min.jpg?alt=media&token=ce6af92e-2c18-41bb-8039-90b7d33a3483"
+            ],
+        description: ""
+    },
+    "plan-mierzyn": {
+        name: "Plan Mierzyn",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchnia_4-min.jpg?alt=media&token=a052697b-3839-4201-856c-68d4b858fb46",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchniaq_1-min.jpg?alt=media&token=d394b6d7-88cd-460e-b464-e7307172c52f",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchniaq_2-min.jpg?alt=media&token=8df7d130-1a6a-4741-8b24-656dccb4a2bf",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-mierzyn%2Fkuchniaq_3-min.jpg?alt=media&token=486eb9fb-e518-47cb-851f-6354185f4980"
+            ],
+        description: "Projekt kuchni o powierzchni 12 m2 w nowo projektowanym domie jednorodzinnym. Kierując się zasadą trzech kolorów we wnętrzach w tym projekcie postawiłam na klasyczną biel i czerń oraz drewno, które ociepliło wnętrze. "
+    },
+    "plan-modern-classic": {
+        name: "Plan Modern Classic",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-modern-classic%2F1_drewno-min.png?alt=media&token=52d88521-0ac5-493e-838c-cf68070c9e1e",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-modern-classic%2F1_roz-min.png?alt=media&token=cfaeb411-68b5-465d-b0fc-519ac68956ed",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-modern-classic%2F2_biel-min.png?alt=media&token=7de81329-2f31-4907-ad00-a38f0a87dd6b"
+            ],
+        description: ""
+    },
+    "plan-oltaszyn": {
+        name: "Plan Ołtaszyn",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_1_1_11zon.jpg?alt=media&token=66cdc8ba-de80-49c7-9fda-f453980fa8a0",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_2_2_11zon.jpg?alt=media&token=7b9b40b3-9e1b-4063-9a8f-bf583edb76be",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_3_3_11zon.jpg?alt=media&token=e00cddab-9413-40d2-9ace-75660460967f",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-oltaszyn%2F%C5%82az_4_4_11zon.jpg?alt=media&token=a64f5d3f-5166-4c0d-bf4e-2d92f425be1e"
+            ],
+        description: ""
+    },
+    "plan-hallera": {
+        name: "Plan Hallera",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F1_KUCHNIA-min.jpg?alt=media&token=1d5900e6-5f71-45be-ad71-dda91173bd9a",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F2_Kuchnia-min.jpg?alt=media&token=be933b78-a0bd-4a27-be6a-01443b4367fc",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F3_kuchnia-min.jpg?alt=media&token=db41bbbf-0d75-47b2-9f32-75fff3eb8132",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F4_kuchnia-min.jpg?alt=media&token=5bbbda32-a605-4b64-9ce8-84aca1aa8184",
+            "https://firebasestorage.googleapis.com/v0/b/planbdesign-e7bd7.appspot.com/o/projects%2Fplan-hallera%2F5_kuchnia-min.jpg?alt=media&token=e49a1dcf-2936-4983-a28e-d6e0a88c788e"],
+        description: "Projekt kuchni we Wrocławiu to metamorofza istniejącego pomieszczenia o powierzchni 5,5 m2. Zaprojektowanie wnętrza wpisującego się w istniejące już elementy to spore wyzwanie dla architekta oraz wykonawcy. W projekcie inwestorzy chcieli odświeżyć wnętrze pozostawiając bez zmian lokalizację przyłączy oraz kafle na fartuchu kuchennym"
     },
   }
 
@@ -204,7 +204,7 @@ function loadProjects() {
 }
 
 function writeMenu () {
-    var iSpeed = 40; // time delay of print out
+    var iSpeed = 60; // time delay of print out
 
 const typewriter = (text, elementId,wait ) => {
     var destination = document.getElementById(elementId);
