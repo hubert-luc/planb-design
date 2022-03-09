@@ -116,7 +116,7 @@ const projects = {
   }
 
   writeMenu()
-  window.location.pathname.includes('index') && loadProjects()
+  if (window.location.pathname.includes('index') || window.location.pathname === '/' ) loadProjects()
   window.location.pathname.includes('project') && loadProject()
 
 projectsLink = document.getElementById('projects-link');
