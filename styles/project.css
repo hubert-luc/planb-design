@@ -1,11 +1,11 @@
 body {
-    background: white;
-    color: rgb(117, 117, 117);
-    font-family: 'Roboto Condensed', sans-serif;
+  background: white;
+  color: rgb(117, 117, 117);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 h3 {
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -20,41 +20,47 @@ font-size: 1.5rem;
   transform: translateY(-50%);
   left: 0;
   right: 0;
-  margin: auto
+  margin: auto;
 }
 
 #container {
   width: 100%;
   margin: 0 auto;
 }
-    
-.container {
-    background-image: rgba(3, 60, 63)
+
+@media (min-width: 1024px) {
+  #container {
+    width: 80%;
+  }
 }
-    
+
+.container {
+  background-image: rgba(3, 60, 63);
+}
+
 .welcome-header {
-    align-items: center;
-    height: 40vh;
-    position: relative;
-    background:rgba(3, 60, 63);
-    margin-bottom: 20px;
+  align-items: center;
+  height: 40vh;
+  position: relative;
+  background: rgba(3, 60, 63);
+  margin-bottom: 20px;
 }
 
 .title-container {
-    text-align: center;
-    color: rgba(252, 199, 197);
-    opacity: 0;
-    animation: show 1s ease-in;
-    animation-fill-mode: forwards;
-    overflow: hidden;
-    width: 95%;
-    max-width: calc(600px * 1.1);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    right: 0;
-    margin: auto
+  text-align: center;
+  color: rgba(252, 199, 197);
+  opacity: 0;
+  animation: show 1s ease-in;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  width: 95%;
+  max-width: calc(600px * 1.1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .pink {
@@ -62,7 +68,7 @@ font-size: 1.5rem;
 }
 
 .short-description {
-  font-family: 'Yesteryear', cursive;
+  font-family: "Yesteryear", cursive;
 }
 
 .text-block {
@@ -77,14 +83,14 @@ font-size: 1.5rem;
 
 .description {
   color: rgb(117, 117, 117);
- text-align: justify;
+  text-align: justify;
 }
 
 .name {
   color: rgba(252, 199, 197);
   font-weight: 400;
   text-transform: uppercase;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .menu {
@@ -92,7 +98,7 @@ font-size: 1.5rem;
   display: flex;
   margin: 245px;
   color: rgba(252, 199, 197);
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   width: 95%;
   max-width: 380px;
@@ -122,7 +128,7 @@ font-size: 1.5rem;
 }
 
 #o-planie {
- /* border-bottom: 1px solid rgb(224, 224, 224); */
+  /* border-bottom: 1px solid rgb(224, 224, 224); */
 }
 
 .about-desc-sec {
@@ -152,59 +158,59 @@ font-size: 1.5rem;
 }
 
 @keyframes show {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 576px) {
+  .menu-item {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .welcome-header {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-item {
+    font-size: 1.5rem;
+  }
+  .icon {
+    font-size: 3rem;
   }
 
-  @media (min-width: 576px) {
-    .menu-item {
-        font-size: 1.25rem;
-    }
+  .text-block {
+    padding: 10px 40px;
   }
 
-  @media (min-width: 768px) {
-    .welcome-header {
-      height: 30vh;
-    }
+  .about-desc-sec {
+    flex-direction: row;
   }
-    
-  @media (min-width: 992px) {
-    .menu-item {
-      font-size: 1.5rem;
+  .about-desc-sec:nth-of-type(2) {
+    flex-direction: row-reverse;
   }
-    .icon {
-      font-size: 3rem;
-    }
+  .about-desc-sec > div {
+    flex: 1 1 0;
+  }
 
-    .text-block {
-      padding: 10px 40px;
-    }
+  .offer-table {
+    width: 80%;
+  }
 
-    .about-desc-sec {
-      flex-direction: row;
-    }
-    .about-desc-sec:nth-of-type(2) {
-     flex-direction: row-reverse;
-    }
-    .about-desc-sec > div {
-      flex: 1 1 0;
-    }
+  .contact-image {
+    width: 60%;
+  }
 
-    .offer-table {
-      width: 80%;
-    }
-
-    .contact-image {
-      width: 60%;
-    }
-
-    .about-image {
-      width: 80%;
-    }
+  .about-image {
+    width: 80%;
+  }
 }
 .option {
   color: rgba(3, 60, 63);
@@ -212,5 +218,5 @@ font-size: 1.5rem;
 }
 
 .offer-header {
-  color: rgb(3, 60, 63)
+  color: rgb(3, 60, 63);
 }
